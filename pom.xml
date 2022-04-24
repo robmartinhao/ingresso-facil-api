@@ -8,8 +8,8 @@
         <version>2.6.4</version>
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
-    <groupId>com.devsuperior</groupId>
-    <artifactId>dsmovie</artifactId>
+    <groupId>com.ingressofacil.api</groupId>
+    <artifactId>ingressofacil</artifactId>
     <version>0.0.1-SNAPSHOT</version>
     <name>backend</name>
     <description>backend</description>

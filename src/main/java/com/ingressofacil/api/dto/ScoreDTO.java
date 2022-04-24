@@ -1,4 +1,4 @@
-package com.devsuperior.dsmovie.dto;
+package com.ingressofacil.api.dto;
 
 public class ScoreDTO {
 

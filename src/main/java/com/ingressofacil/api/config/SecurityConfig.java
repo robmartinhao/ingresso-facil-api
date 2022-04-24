@@ -1,4 +1,4 @@
-package com.devsuperior.dsmovie.config;
+package com.ingressofacil.api.config;
 
 
 import org.springframework.beans.factory.annotation.Autowired;

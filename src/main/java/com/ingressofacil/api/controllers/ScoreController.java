@@ -1,8 +1,8 @@
-package com.devsuperior.dsmovie.controllers;
+package com.ingressofacil.api.controllers;
 
-import com.devsuperior.dsmovie.dto.MovieDTO;
-import com.devsuperior.dsmovie.dto.ScoreDTO;
-import com.devsuperior.dsmovie.services.ScoreService;
+import com.ingressofacil.api.dto.MovieDTO;
+import com.ingressofacil.api.dto.ScoreDTO;
+import com.ingressofacil.api.services.ScoreService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.PutMapping;
 import org.springframework.web.bind.annotation.RequestBody;

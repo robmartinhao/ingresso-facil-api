@@ -1,4 +1,4 @@
-package com.devsuperior.dsmovie;
+package com.ingressofacil.api;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;

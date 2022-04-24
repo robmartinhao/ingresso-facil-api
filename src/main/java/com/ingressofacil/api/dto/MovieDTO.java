@@ -1,6 +1,6 @@
-package com.devsuperior.dsmovie.dto;
+package com.ingressofacil.api.dto;
 
-import com.devsuperior.dsmovie.entities.Movie;
+import com.ingressofacil.api.entities.Movie;
 
 public class MovieDTO {
 

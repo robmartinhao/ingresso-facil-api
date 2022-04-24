@@ -1,12 +1,12 @@
-package com.devsuperior.dsmovie.services;
+package com.ingressofacil.api.services;
 
-import com.devsuperior.dsmovie.dto.MovieDTO;
-import com.devsuperior.dsmovie.dto.ScoreDTO;
-import com.devsuperior.dsmovie.entities.Score;
-import com.devsuperior.dsmovie.entities.User;
-import com.devsuperior.dsmovie.repositories.MovieRepository;
-import com.devsuperior.dsmovie.repositories.ScoreRepository;
-import com.devsuperior.dsmovie.repositories.UserRepository;
+import com.ingressofacil.api.repositories.MovieRepository;
+import com.ingressofacil.api.repositories.UserRepository;
+import com.ingressofacil.api.dto.MovieDTO;
+import com.ingressofacil.api.dto.ScoreDTO;
+import com.ingressofacil.api.entities.Score;
+import com.ingressofacil.api.entities.User;
+import com.ingressofacil.api.repositories.ScoreRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;

@@ -1,4 +1,4 @@
-package com.devsuperior.dsmovie.entities;
+package com.ingressofacil.api.entities;
 
 
 import javax.persistence.EmbeddedId;

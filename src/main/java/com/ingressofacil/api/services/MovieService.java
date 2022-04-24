@@ -1,8 +1,8 @@
-package com.devsuperior.dsmovie.services;
+package com.ingressofacil.api.services;
 
-import com.devsuperior.dsmovie.dto.MovieDTO;
-import com.devsuperior.dsmovie.entities.Movie;
-import com.devsuperior.dsmovie.repositories.MovieRepository;
+import com.ingressofacil.api.repositories.MovieRepository;
+import com.ingressofacil.api.dto.MovieDTO;
+import com.ingressofacil.api.entities.Movie;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.data.domain.Page;
 import org.springframework.data.domain.Pageable;

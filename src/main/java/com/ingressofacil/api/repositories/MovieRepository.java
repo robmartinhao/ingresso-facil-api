@@ -1,6 +1,6 @@
-package com.devsuperior.dsmovie.repositories;
+package com.ingressofacil.api.repositories;
 
-import com.devsuperior.dsmovie.entities.Movie;
+import com.ingressofacil.api.entities.Movie;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
 
