@@ -11,8 +11,8 @@
     <groupId>com.ingressofacil.api</groupId>
     <artifactId>ingressofacil</artifactId>
     <version>0.0.1-SNAPSHOT</version>
-    <name>backend</name>
-    <description>backend</description>
+    <name>ingresso-facil-api</name>
+    <description>ingresso-facil-api</description>
     <properties>
         <java.version>11</java.version>
     </properties>
