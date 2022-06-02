@@ -12,21 +12,14 @@ public class Movie {
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
     private String title;
-    private Double score;
-    private Integer count;
     private String image;
-
-    @OneToMany(mappedBy = "id.movie")
-    private Set<Score> scores = new HashSet<>();
 
     public Movie() {
     }
 
-    public Movie(Long id, String title, Double score, Integer count, String image) {
+    public Movie(Long id, String title, String image) {
         this.id = id;
         this.title = title;
-        this.score = score;
-        this.count = count;
         this.image = image;
     }
 
@@ -46,31 +39,11 @@ public class Movie {
         this.title = title;
     }
 
-    public Double getScore() {
-        return score;
-    }
-
-    public void setScore(Double score) {
-        this.score = score;
-    }
-
-    public Integer getCount() {
-        return count;
-    }
-
-    public void setCount(Integer count) {
-        this.count = count;
-    }
-
     public String getImage() {
         return image;
     }
 
     public void setImage(String image) {
         this.image = image;
-    }
-
-    public Set<Score> getScores() {
-        return scores;
     }
 }
