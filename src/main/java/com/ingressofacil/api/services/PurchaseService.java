@@ -32,6 +32,7 @@ public class PurchaseService {
         purchase.setCartaoCredito(dto.getCartaoCredito());
         purchase.setCodigoDeSeguranca(dto.getCodigoDeSeguranca());
         purchase.setValidade(dto.getValidade());
+        purchase.setNome(dto.getNome());
         purchaseRepository.save(purchase);
     }
 }

@@ -5,6 +5,7 @@ public class PurchaseDTO {
     private Long movieId;
     private String email;
 
+    private String nome;
     private String dataHora;
 
     private String cpf;
@@ -29,6 +30,14 @@ public class PurchaseDTO {
 
     public void setEmail(String email) {
         this.email = email;
+    }
+
+    public String getNome() {
+        return nome;
+    }
+
+    public void setNome(String nome) {
+        this.nome = nome;
     }
 
     public String getDataHora() {
