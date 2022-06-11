@@ -1,0 +1,22 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: ingresso-api
+  labels:
+    app: ingresso-api
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: ingresso-api
+  template:
+    metadata:
+      labels:
+        app: ingresso-api
+    spec:
+      containers:
+        - name: ingresso-api
+          image: ingresso/ingresso-api:latest
+          imagePullPolicy: IfNotPresent
+          ports:
+            - containerPort: 8080
