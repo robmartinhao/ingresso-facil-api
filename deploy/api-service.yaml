@@ -1,7 +1,7 @@
 apiVersion: v1
 kind: Service
 metadata:
-  name: ingresso-api-service
+  name: ingresso-api
 spec:
   selector:
     app: ingresso-api
@@ -9,3 +9,4 @@ spec:
     - port: 8080
       protocol: TCP
       targetPort: 8080
+  type: NodePort                                   
